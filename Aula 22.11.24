@@ -1,1 +1,33 @@
+##Exercício 1: 
+    #include <stdio.h>
+    #include <stdlib.h>
+    
+    int contador = 0;
+    
+    void incrementarContador(){
+        contador++;
+        printf("Valor atual do contador: %d\n", contador);
+    }
+    
+    void exemploVariavelLocal(){
+        int valorLocal = 10;
+        valorLocal++;
+        printf("Valor atual de valorLocal: %d\n", valorLocal);
+    }   
+    
+    
+    int main() {
+        printf("Demonstração: \n");
+        for (int i = 0; i < 4; i++) {
+            printf("\nRepetição %d:\n", i + 1);
+            incrementarContador();  
+            exemploVariavelLocal();  
+        }
+    
+        return 0;
+    }
+
+## Exercício 2: 
+  
+
 
